@@ -5,6 +5,7 @@
 
  body {
    background: $gray;
+   margin-left: 20px;
  }
 
   a {
@@ -12,4 +13,24 @@
    &:hover {
      color: black;
    }
+   text-decoration: none;
  }
+
+#question {
+  border-left: 6px solid lightgrey;
+  padding: 2px 20px;
+  margin-bottom: 16px;
+}
+
+#answer {
+  background-color: #FCFFCD;
+  border-left: 6px solid lightgrey;
+  padding: 2px 20px;
+  margin-bottom: 16px;
+}
+
+#form-content {
+  margin: 0 auto;
+  height: 40px;
+  padding: 10px;
+}

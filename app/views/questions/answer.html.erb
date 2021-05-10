@@ -1,7 +1,14 @@
 <!-- display question -->
-<h2><%= @query%></h2>
+<div id="question">
+  <p><%= @query%></p>
+  <p><em>-You</em></p>
+</div>
+
 <!-- display answer -->
-<h2><%= @answer %></h2>
+<div id="answer">
+  <p><strong><%= @answer%></strong></p>
+  <p><em>-Your coach</em></p>
+</div>
 <!-- link to new question -->
 
-<%= link_to 'ask new question', ask_path %>
+<%= link_to 'Ask new question', ask_path %>
