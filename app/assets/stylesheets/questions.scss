@@ -39,10 +39,15 @@
 #form-input {
   width: 500px;
   height: 40px;
+  border-radius: 8px 0 0 8px;
+  position: relative;
 }
 #form-btn {
   background-color: #0E6EFD;
   width: 80px;
   color: white;
   padding: 14px 4px;
+  border-radius: 0 8px 8px 0;
+  position: absolute;
+  left: 524px;
 }
